@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <!--Header Section-->
+<div>
+ <h1>Lokesh Portfolio</h1>
+    <h1>Frontend Developer</h1>
+</div>
+   <!--Navigation Bar-->
+   
+    <nav id="navi">
+
+        <a class="navigation" href="index.html">Home</a>
+        <a class="navigation" href="about.html">About</a>
+        <a class="navigation" href="skills.html">Skills</a>
+<a class="navigation" href="contact.html">Contact</a>
+<style>
+   :root{
+    background-color: rgba(24, 199, 199, 0.774);
+    border: 7px solid black;
+    padding: 20px;
+    padding-right: 20px;
+   }
+    h1{
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        color:red ;
+    }
+    .navigation:link{
+color: black;
+    }
+    
+      .navigation:hover{
+        color:orange;
+      }
+       .navigation:active{
+        color: green;
+       }
+ .navigation{
+    text-decoration: none;
+    border: 5px solid black;
+    padding: 10px;
+ }
+ img{
+    width: 200px;
+    border-radius: 100px;
+    border: 5px solid black;
+}
+span{
+    color: red;
+    font-weight: bold;
+}
+.about{
+    display: flex;
+gap:10px;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+font-size: 25px;
+text-align: justify;
+line-height: 1.1;
+margin-top: 30px;
+border: 10px solid rgba(55, 0, 255, 0.877);
+padding: 30px;
+}
+button{
+    margin-top: 10px;
+color:white;
+background-color:blue;
+border: 4px double black;
+margin-left: 65px;
+
+}
+button:hover{
+    background-color:gold;
+}
+button:active{
+    background-color: red;
+}
+.table{
+            border: 5px solid black;
+            display: inline-block;
+            padding: 10px;
+        }
+        .form{
+            margin-top: 20px;
+            padding: 10px;
+border: 5px solid black;
+display: inline-block;
+padding: 30px;
+        }
+        button{
+    margin-top: 10px;
+color:white;
+background-color:blue;
+border: 4px double black;
+margin-left: 65px;
+
+}
+button:hover{
+    background-color:gold;
+}
+        
+button:active{
+    background-color: red;
+}
+</style>
+      <!--About Card-->     
+</nav> 
+    <div class="about">
+        <img src="loki.jpeg" alt="">
+         <p>Good morning. <span>I am Lokesh</span>.From Sivaganga and i was comleted my bachelor degree in Sri Ranganathar Institute of Engineering and Technology.I am a Computer Science and Engineering Student. I am interested in software development and have hands-on knowledge of web technologies and basic backend concepts.</p>
+
+    </div>
+    <button class="but">Hire Me</button>
+ 
+
+<!--Skills table-->
+<a href="skills.html"></a>
+    <div class="table">
+        
+   <h1>Skills</h1>
+        <label for="">Html</label>
+    <input type="range" min="0" max="100"><br>
+     
+ <label for="">Css</label>
+    <input type="range" min="0" max="100"><br>
+    
+     <label for="">Javascript</label>
+    <input type="range" min="0" max="100"><br>
+    
+     <label for="">Python</label>
+    <input type="range" min="0" max="100">
+    </div>
+   <!--contact Section-->
+
+    <div class="form">
+        <h1>Contact Form</h1>
+  <form action="">
+        <label for="">Name</label><br>
+        <input type="text"><br>
+
+<label for="">Email</label><br>
+<input type="email"><br>
+
+<label for="">Message</label><br>
+<textarea name="" id="" rows="5" cols="25"></textarea><br>
+
+<button>Submit</button>
+    </form>
+    </div>
+</body>
+</html>
